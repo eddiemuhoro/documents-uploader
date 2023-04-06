@@ -1,0 +1,126 @@
+
+.jnav-container{
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 60px;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+
+.jleft , .jright{
+    display: flex;
+    align-items: center;
+    color: rgb(207, 178, 12);
+    margin: 20px;
+}
+
+.jleft a{
+    margin: 0 010px;
+}
+
+.jbar{
+    margin: 10px;
+}
+.jsearch{
+    margin: 10px;
+    background-color: rgb(74, 80, 85);
+    border:  transparent 2px solid;
+}
+
+.jsearch span{
+    cursor: pointer;
+}
+
+.jsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    
+  
+}
+
+
+.jleft > div{
+    margin: 10px;
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+.active{
+    color: rgb(207, 178, 12);
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .dropdown a{
+    margin: 0;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -30px;
+    /* right: 0; */
+    z-index: 1;
+    display: none;
+    min-width: 160px;
+    width: 30px;
+    padding: 8px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #f2f2f2;
+    text-decoration: none;
+    outline: none;
+  }

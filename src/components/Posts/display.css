@@ -1,0 +1,10 @@
+.item-data{
+   border: 1px solid #ffffff8c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #000000d7;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
